@@ -843,10 +843,21 @@ main {
  * skills 
  */
 
-.skills-title { margin-bottom: 20px; }
+.skills-title { margin-bottom: 10px; }
 
-.skills-list { padding: 20px; }
+.skills-list { 
+  padding: 0;
+  margin: 0; 
+}
 
+.skills-container {
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px;
+}
+.skills-subsection {
+  width: 48%; 
+}
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
 
